@@ -1,0 +1,22 @@
+{% load static %}
+<head>
+<link rel="stylesheet" href="{% static 'header/header.css' %}">
+<script src="{% static 'header/header.js' %}"></script>
+</head>
+<header class="header sticky js-header m-0px">
+
+    <div class="grid">
+  
+      <nav class="navigation">
+        <ul class="navigation__list navigation__list--inline">
+          <li class="navigation__item"><a href="{% url 'home' %}" class="navigation__link {% if request.path ==  '/'  %} navigation__link--is-active {% endif %}">Home</a></li>
+          <li class="navigation__item"><a href="{% url 'about' %}" class="navigation__link {% if request.path ==  '/about/'  %} navigation__link--is-active {% endif %}">Work</a></li>
+          <li class="navigation__item"><a href="{% url 'client' %}" class="navigation__link {% if request.path ==  '/client/'  %} navigation__link--is-active {% endif %}">Clients</a></li>
+          <li class="navigation__item"><a href="{% url 'contact' %}" class="navigation__link {% if request.path ==  '/contact/'  %} navigation__link--is-active {% endif %}">Contact</a></li>
+          <li class="navigation__item"><a href="{% url 'singin' %}" class="navigation__link {% if request.path ==  '/singin/'  %} navigation__link--is-active {% endif %}">singin</a></li>
+        </ul>
+      </nav>
+  
+    </div>
+  
+</header>

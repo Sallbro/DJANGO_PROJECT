@@ -1,0 +1,165 @@
+body {
+    background-color: #B3E5FC
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold
+}
+
+.square {
+    background-color: #fedcdd;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.email {
+    font-size: 14px;
+    margin-left: 25px;
+    font-weight: bold
+}
+
+.dummytext {
+    font-size: 12px;
+    font-weight: normal;
+    color: #848590
+}
+
+.icons i {
+    color: #FA222A;
+    margin-left: 25px
+}
+
+.icons span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square1 {
+    background-color: #cfe3fe;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons1 i {
+    color: #497eea;
+    margin-left: 25px
+}
+
+.icons1 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square2 {
+    background-color: #ffefc5;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons2 i {
+    color: #ffc227;
+    margin-left: 25px
+}
+
+.icons2 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square5 {
+    background-color: #41cfff;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons5 i {
+    color: #41cfff;
+    margin-left: 25px
+}
+
+.icons5 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square4 {
+    background-color: #eae6fd;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons4 i {
+    color: #6a35ff;
+    margin-left: 25px
+}
+
+.icons4 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square3 {
+    background-color: #fedfce;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons3 i {
+    color: #ff8339;
+    margin-left: 25px
+}
+
+.icons3 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
